@@ -8,7 +8,7 @@ from PIL import Image
 from semantic_mapping import SEMANTIC_MAP
 
 # Load trained model
-model = load_model("sign_model.h5")
+model = load_model("model.h5")
 
 alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
