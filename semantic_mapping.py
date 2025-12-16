@@ -91,6 +91,8 @@ SEMANTIC_MAP = {
     ],
 
     "H": [
+        "Thumbs Up Dude",
+        "Nice Work",
         "Help",
         "I need help",
         "Assist me",
