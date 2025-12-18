@@ -54,12 +54,12 @@ model = load_model("sign_model.h5")
 alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 
-st.title("🤟 Hand Gesture & Sign Language Translator")
+st.title(" Hand Gesture & Sign Language Translator")
 
 # ======================================
 # SECTION 1: SIGN LANGUAGE (A–Z)
 # ======================================
-st.header("🔤 Sign Language (A–Z)")
+st.header("Sign Language to English Text")
 
 sign_image = st.file_uploader(
     "Upload Sign Language Image",
@@ -88,7 +88,7 @@ if sign_image:
 # ======================================
 # SECTION 2: GENERAL HAND GESTURES
 # ======================================
-st.header("✋ General Hand Gestures")
+st.header(" General Hand Gestures to Text ")
 
 gesture_image = st.file_uploader(
     "Upload Hand Gesture Image",
