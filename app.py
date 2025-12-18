@@ -45,7 +45,7 @@ import numpy as np
 import cv2
 from PIL import Image
 from tensorflow.keras.models import load_model
-import mediapipe as mp
+
 
 from semantic_mapping import SEMANTIC_MAP, GESTURE_MEANINGS
 
@@ -53,9 +53,6 @@ from semantic_mapping import SEMANTIC_MAP, GESTURE_MEANINGS
 model = load_model("sign_model.h5")
 alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
-# MediaPipe setup
-mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(static_image_mode=True)
 
 st.title("🤟 Hand Gesture & Sign Language Translator")
 
