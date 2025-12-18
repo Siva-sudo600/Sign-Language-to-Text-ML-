@@ -339,3 +339,24 @@ SEMANTIC_MAP = {
         "End of communication"
     ]
 }
+
+GESTURE_MEANINGS = {
+    "THUMBS_UP": "Approval, good job, everything is okay",
+    "THUMBS_DOWN": "Disapproval or rejection",
+    "CLAP": "Appreciation or praise",
+    "HANDSHAKE": "Agreement or greeting",
+    "PRAYER": "Thank you, request, or respect",
+    "PEACE": "Peace or victory",
+    "OK_SIGN": "Perfect or approved",
+    "STOP": "Stop immediately",
+    "WAVE": "Hello or goodbye",
+    "CALL_ME": "Call me",
+    "POINT_LEFT": "Look or move left",
+    "POINT_RIGHT": "Look or move right",
+    "POINT_UP": "Look up",
+    "POINT_DOWN": "Look down",
+    "FIST": "Power or determination",
+    "OPEN_PALM": "Openness or welcome",
+    "HEART": "Love and affection",
+    "MIDDLE_FINGER": "!!! FUCK YOU !!!"
+}
